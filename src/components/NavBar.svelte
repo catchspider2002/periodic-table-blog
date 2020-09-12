@@ -52,7 +52,7 @@
         <a id="printableList" href="https://periodic-table.io/printables.html">
           <span class="iconFont">E</span>
           <span id="printableLink" class="linkText">PRINTABLES</span>
-          <span id="newHeader" class="newHeader new" />
+          <span id="newHeader" class="newHeader new" >NEW</span>
         </a>
       </li>
       <li>
@@ -65,7 +65,7 @@
         <a id="translateList" href="https://periodic-table.io/translation.html">
           <span class="iconFont">B</span>
           <span id="translateLink" class="linkText">TRANSLATE</span>
-          <span class="newHeader new" />
+          <span class="newHeader new" >NEW</span>
         </a>
       </li>
       <li>

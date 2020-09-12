@@ -33,19 +33,6 @@
     font-weight: 500;
   }
 
-  .content :global(pre) {
-    background-color: #f9f9f9;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.05);
-    padding: 0.5em;
-    border-radius: 2px;
-    overflow-x: auto;
-  }
-
-  .content :global(pre) :global(code) {
-    background-color: transparent;
-    padding: 0;
-  }
-
   .content :global(ul) {
     line-height: 1.5;
   }
@@ -56,12 +43,32 @@
 </style>
 
 <svelte:head>
-  <title>{post.title}</title> 
+  <title>{post.title}</title>
+  <link rel="canonical" href="https://blog.periodic-table.io/{post.slug}" />
+  <meta name="description" content={post.description} />
+  <meta name="keywords" content={post.keywords} />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://blog.periodic-table.io/{post.slug}" />
+  <meta property="og:title" content={post.title} />
+  <meta property="og:description" content={post.description} />
+  {#if post.thumb}
+    <meta property="og:image" content={post.thumb} />
+  {/if}
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://blog.periodic-table.io/{post.slug}" />
+  <meta property="twitter:title" content={post.title} />
+  <meta property="twitter:description" content={post.description} />
+  {#if post.thumb}
+    <meta property="twitter:image" content={post.thumb} />
+  {/if}
 </svelte:head>
 <NavBar />
 
 <Blog />
-
 
 <h1>{post.title}</h1>
 
