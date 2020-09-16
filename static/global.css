@@ -280,6 +280,14 @@ button:active {
 
 
 @font-face {
+  font-family: "league-spartan";
+  src: url("./LeagueSpartan-Bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
   font-family: "periodic-table";
   src: url("./periodic-table.woff") format("woff");
   font-weight: normal;

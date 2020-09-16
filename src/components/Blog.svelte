@@ -2,15 +2,25 @@
   // let root = document.documentElement;
   let color = "234, 41%, 34%";
   // import PageProgress from "svelte-page-progress"
+  import { onMount } from "svelte";
+
   import Hero from "./Hero.svelte";
+  import html2canvas from "html2canvas";
+
+  onMount(async () => {
+    html2canvas(document.body).then(function(canvas) {
+      // console.log("Added in onmount")
+      // document.body.appendChild(canvas);
+    });
+  });
 
   // root.style.setProperty("--theme-color", color);
 </script>
 
 <style>
-:root{
-  --theme-color: 234, 41%, 34%
-}
+  :root {
+    --theme-color: 234, 41%, 34%;
+  }
 </style>
 
 <!-- <PageProgress color=hsl({color}) /> -->
