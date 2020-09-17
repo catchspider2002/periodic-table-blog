@@ -280,16 +280,16 @@ button:active {
 
 
 @font-face {
-  font-family: "league-spartan";
-  src: url("./LeagueSpartan-Bold.otf") format("otf");
+  font-family: "League Spartan";
+  src: url("./fonts/LeagueSpartan-Bold.otf") format("otf");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
+ 
 @font-face {
-  font-family: "periodic-table";
-  src: url("./periodic-table.woff") format("woff");
+  font-family: "periodic-table"; 
+  src: url("./fonts/periodic-table.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -301,6 +301,11 @@ button:active {
   font-size: 1.5rem;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.leagueSpartan {
+  font-family: "League Spartan";
+  text-transform: uppercase;
 }
 
 :root {

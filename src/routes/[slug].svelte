@@ -17,6 +17,18 @@
   export let post;
   import NavBar from "../components/NavBar.svelte";
   import Blog from "../components/Blog.svelte";
+  import html2canvas from "html2canvas";
+
+  let takeScreenShot = () => {
+    console.log("Take screenshot");
+    html2canvas(document.getElementById("target"), {
+      onrendered: function(canvas) {
+        document.body.appendChild(canvas);
+      },
+      width: 320,
+      height: 220
+    });
+  };
 </script>
 
 <style>
@@ -60,9 +72,9 @@
 </svelte:head>
 <NavBar />
 
-<Blog />
+<Blog title={post.title} tags={post.tags} />
 
-<h1>{post.title}</h1>
+<button on:click={takeScreenShot}>to image</button>
 
 <div class="content">
   {@html post.html}

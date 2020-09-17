@@ -9,8 +9,9 @@
 
 const posts = [
   {
-    title: "What is Sapper?",
+    title: "How to remove a specific item from an array?",
     slug: "what-is-sapper",
+    tags: ["JAVASCRIPT","ES6"],
     description: "",
     keywords: "",
     thumb: "",
@@ -33,6 +34,7 @@ const posts = [
   {
     title: "How to use Sapper",
     slug: "how-to-use-sapper",
+    tags: ["JAVASCRIPT","ES6"],
     description: "",
     keywords: "",
     thumb: "",
@@ -60,6 +62,7 @@ const posts = [
   {
     title: "Why the name?",
     slug: "why-the-name",
+    tags: ["JAVASCRIPT","ES6"],
     description: "",
     keywords: "",
     thumb: "",
@@ -73,6 +76,7 @@ const posts = [
   {
     title: "How is Sapper different from Next.js?",
     slug: "how-is-sapper-different-from-next",
+    tags: ["SVG"],
     description: "",
     keywords: "",
     thumb: "",
@@ -91,6 +95,7 @@ const posts = [
   {
     title: "How can I get involved?",
     slug: "how-can-i-get-involved",
+    tags: ["HTML"],
     description: "",
     keywords: "",
     thumb: "",
