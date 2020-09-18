@@ -5,7 +5,9 @@
   // import PageProgress from "svelte-page-progress"
   import { onMount } from "svelte";
 
-  import Hero from "./Hero.svelte";
+  import HeroNew from "./Hero_new.svelte";
+  // import HeroOld from "./Hero_old.svelte";
+  // import Hero from "./Hero.svelte";
 
   export let title, tags;
 
@@ -28,6 +30,8 @@
 <!-- <PageProgress color=hsl({color}) /> -->
 
 <div class="body-text body-bg">
-  <Hero {color} {title} {tags} />
+  <HeroNew {color} {title} {tags} />
+  <!-- <Hero {color} {title} {tags} />
+  <HeroOld {color} {title} {tags} /> -->
   <section class="container">Since there is only a single return line, you can further simplify this as check</section>
 </div>
