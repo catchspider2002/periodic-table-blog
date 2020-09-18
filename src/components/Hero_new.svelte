@@ -59,10 +59,10 @@
   h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    /* line-height: 1.4;
-    letter-spacing: 0.05em;
+    line-height: 1.2;
+    /* letter-spacing: 0.05em;
     word-spacing: 0.25em; */
-    font-size: 3.5em;
+    font-size: 3.2em;
     color: var(--bg);
     padding: 0.5em 0.75em;
     margin: 0;
@@ -70,12 +70,12 @@
 
   .tag {
     line-height: 0;
-    padding: 0.5em 0.75em;
+    padding: 0.25em 0.5em;
     border-radius: var(--border-radius);
     font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
-    /* letter-spacing: 0em; */
+    letter-spacing: 0.05em;
     background-color: var(--bg);
     color: hsl(var(--theme-color));
     margin-bottom: 2em;
