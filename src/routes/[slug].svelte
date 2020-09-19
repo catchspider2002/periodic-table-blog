@@ -41,7 +41,7 @@
   <meta name="keywords" content={post.keywords} />
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="blog" />
   <meta property="og:url" content="https://blog.periodic-table.io/{post.slug}" />
   <meta property="og:title" content={post.title} />
   <meta property="og:description" content={post.description} />
