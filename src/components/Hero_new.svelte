@@ -15,6 +15,18 @@
     case "SVELTE":
       color = "14.6,100%,50%";
       break;
+    case "CSS":
+      color = "228,78%,52%";
+      break;
+    case "TAILWIND CSS":
+      color = "177,52%,46%";
+      break;
+    case "SVG":
+      color = "36,100%,62%";
+      break;
+    case "HTML":
+      color = "13,77%,52%";
+      break;
     case "REACT":
       color = "192.9,95.1%,68.2%";
       break;

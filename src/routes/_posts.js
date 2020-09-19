@@ -9,7 +9,7 @@
 
 const posts = [
   {
-    title: "How to remove a specific item from an array?",
+    title: "How to remove a specific item from an array? (JAVASCRIPT)",
     slug: "how-to-remove-a-specific-item-from-an-array",
     tags: ["JAVASCRIPT", "ES6"],
     description: "",
@@ -32,7 +32,7 @@ const posts = [
   },
 
   {
-    title: "How to use Sapper",
+    title: "How to use Sapper (SVELTE)",
     slug: "how-to-use-sapper",
     tags: ["SVELTE"],
     description: "",
@@ -60,7 +60,7 @@ const posts = [
   },
 
   {
-    title: "Why the name?",
+    title: "Why the name? (CSS)",
     slug: "why-the-name",
     tags: ["CSS"],
     description: "",
@@ -74,7 +74,7 @@ const posts = [
   },
 
   {
-    title: "How is Sapper different from Next.js?",
+    title: "How is Sapper different from Next.js? (SVG)",
     slug: "how-is-sapper-different-from-next",
     tags: ["SVG"],
     description: "",
@@ -93,7 +93,7 @@ const posts = [
   },
 
   {
-    title: "How can I get involved?",
+    title: "How can I get involved? (HTML)",
     slug: "how-can-i-get-involved",
     tags: ["HTML"],
     description: "",
@@ -105,9 +105,21 @@ const posts = [
   },
 
   {
-    title: "To react How can I get involved?",
-    slug: "To react  how-can-i-get-involved",
+    title: "To react How can I get involved? (REACT)",
+    slug: "react-how-can-i-get-involved",
     tags: ["REACT"],
+    description: "",
+    keywords: "",
+    thumb: "",
+    html: `
+			<p>We're so glad you asked! Come on over to the <a href='https://github.com/sveltejs/svelte'>Svelte</a> and <a href='https://github.com/sveltejs/sapper'>Sapper</a> repos, and join us in the <a href='https://svelte.dev/chat'>Discord chatroom</a>. Everyone is welcome, especially you!</p>
+		`
+  },
+
+  {
+    title: "To react How can I get involved? (TAILWIND CSS)",
+    slug: "tailwind-how-can-i-get-involved",
+    tags: ["TAILWIND CSS"],
     description: "",
     keywords: "",
     thumb: "",
