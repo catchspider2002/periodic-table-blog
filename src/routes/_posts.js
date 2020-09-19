@@ -11,7 +11,7 @@ const posts = [
   {
     title: "How to remove a specific item from an array?",
     slug: "how-to-remove-a-specific-item-from-an-array",
-    tags: ["JAVASCRIPT","ES6"],
+    tags: ["JAVASCRIPT", "ES6"],
     description: "",
     keywords: "",
     thumb: "",
@@ -34,7 +34,7 @@ const posts = [
   {
     title: "How to use Sapper",
     slug: "how-to-use-sapper",
-    tags: ["JAVASCRIPT","ES6"],
+    tags: ["SVELTE"],
     description: "",
     keywords: "",
     thumb: "",
@@ -62,7 +62,7 @@ const posts = [
   {
     title: "Why the name?",
     slug: "why-the-name",
-    tags: ["JAVASCRIPT","ES6"],
+    tags: ["CSS"],
     description: "",
     keywords: "",
     thumb: "",
@@ -96,6 +96,18 @@ const posts = [
     title: "How can I get involved?",
     slug: "how-can-i-get-involved",
     tags: ["HTML"],
+    description: "",
+    keywords: "",
+    thumb: "",
+    html: `
+			<p>We're so glad you asked! Come on over to the <a href='https://github.com/sveltejs/svelte'>Svelte</a> and <a href='https://github.com/sveltejs/sapper'>Sapper</a> repos, and join us in the <a href='https://svelte.dev/chat'>Discord chatroom</a>. Everyone is welcome, especially you!</p>
+		`
+  },
+
+  {
+    title: "To react How can I get involved?",
+    slug: "To react  how-can-i-get-involved",
+    tags: ["REACT"],
     description: "",
     keywords: "",
     thumb: "",
