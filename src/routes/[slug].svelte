@@ -45,18 +45,14 @@
   <meta property="og:url" content="https://blog.periodic-table.io/{post.slug}" />
   <meta property="og:title" content={post.title} />
   <meta property="og:description" content={post.description} />
-  {#if post.thumb}
-    <meta property="og:image" content={post.thumb} />
-  {/if}
+  <meta property="og:image" content="https://blog.periodic-table.io/social/{post.slug}.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://blog.periodic-table.io/{post.slug}" />
   <meta property="twitter:title" content={post.title} />
   <meta property="twitter:description" content={post.description} />
-  {#if post.thumb}
-    <meta property="twitter:image" content={post.thumb} />
-  {/if}
+  <meta property="twitter:image" content="https://blog.periodic-table.io/social/{post.slug}.png" />
 </svelte:head>
 <NavBar />
 

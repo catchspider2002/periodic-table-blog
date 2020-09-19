@@ -10,7 +10,7 @@
 const posts = [
   {
     title: "How to remove a specific item from an array?",
-    slug: "what-is-sapper",
+    slug: "how-to-remove-a-specific-item-from-an-array",
     tags: ["JAVASCRIPT","ES6"],
     description: "",
     keywords: "",
