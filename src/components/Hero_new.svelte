@@ -48,10 +48,10 @@
     }
   }
   .header {
-    min-height: 630px;
+    /* min-height: 630px; */
     padding: 2em;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 1fr;
     place-content: center;
     background-color: hsl(var(--theme-color));
   }
@@ -88,13 +88,13 @@
 
 -
 <section class="header">
-  <div class="leftSide">
+    <JavascriptSvg />
+  <!-- <div class="leftSide">
     <span class="tag">JAVASCRIPT</span>
     <h1>{title}</h1>
   </div>
   <div class="rightSide">
-    <JavascriptSvg />
-  </div>
+  </div> -->
 
 </section>
 
