@@ -16,9 +16,7 @@
   
   let website = "https://blog.periodic-table.io";
   let title = "Blog - Periodic-table.io";
-  let page = "/downloads/";
-  let url = website + page;
-  let keywords = "download, free downloads";
+  let url = website;
   let desc = "Downloads";
   let image = website + "/bitmap.png";
 
